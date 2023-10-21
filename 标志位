@@ -1,0 +1,12 @@
+CF(carry flag)：进位/借位
+ZF(zero flag)：零标志位
+SF(symbol flag)：符号标志位
+OF(overflow flag)：溢出标志位
+
+注意：计算用真值不容易错！！！
+无符号数计算看CF、ZF
+有符号数计算看SF、OF、ZF
+
+参考链接：
+https://blog.csdn.net/weixin_41890599/article/details/99866410
+https://blog.csdn.net/weixin_45609535/article/details/124499616
