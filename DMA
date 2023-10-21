@@ -1,0 +1,13 @@
+DMA：Direct Memory Access
+cpu初始化传输动作，dmac(dma控制器)实行和完成传输动作本身。总线控制权转移
+·停止cpu访问内存
+·周期挪用
+·dma与cpu交替访问内存
+
+1.CPU不需访问主存(如CPU正在执行乘法指令，由于乘法指令执行时间较长，此时CPU不需访问主存)，故I/O设备访存与CPU不发生冲突。
+2.I/O设备要求DMA传送时，CPU正在访存，此时必须待 存取周期结束时刻，CPU才能将总线占有权让出。
+3.I/O设备要求访存时，CPU也要求访存，这就出现了访存冲突。此刻，I/O访存优先于CPU访存，因为I/O不立即访存就可能丢失数据，这时I/O要窃取一二个存取周期，意味着CPU在执行访存指令过程中插入了DMA请求，并挪用了一二个存取周期，使CPU延缓了一二个存取周期再访存。
+
+参考链接：
+https://blog.csdn.net/qq_25814297/article/details/109256809
+https://blog.csdn.net/Airbnb/article/details/41575923
