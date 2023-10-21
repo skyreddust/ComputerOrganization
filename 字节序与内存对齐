@@ -1,0 +1,12 @@
+字节序：
+·大端序：数值高位放在内存低地址处
+·小端序：数值低位放在内存低地址处
+网络字节流：大端序发送
+
+内存对齐，又称“边界对齐”
+
+参考链接：
+https://www.cnblogs.com/cdaniu/p/16391953.html
+https://blog.csdn.net/vavid317/article/details/126064591
+https://www.cnblogs.com/yanghong-hnu/p/5700865.html
+https://www.cnblogs.com/yanghong-hnu/p/5700858.html
