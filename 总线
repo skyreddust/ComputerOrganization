@@ -1,0 +1,12 @@
+即插即用(plug and play)
+热插拔(hot plugging)
+
+系统总线标准：ISA、EISA
+局部总线标准：PCI、AGP、PCI-E、VESA
+设备总线标准：USB、RS-232C、SATA、SCSI、PCMCIA
+视频总线标准：VGA、DVI、HDMI
+
+参考链接：
+https://blog.csdn.net/starter_____/article/details/99532217
+https://blog.csdn.net/dala_da/article/details/78650035
+https://blog.csdn.net/qq_41324483/article/details/90736576
