@@ -1,0 +1,11 @@
+RAID(redundant array of independent disks)：独立磁盘冗余阵列/磁盘阵列
+RAID0：无冗余无校验磁盘阵列
+RAID1：磁盘镜像备份
+RAID3：奇偶校验
+RAID5：分布式奇偶校验
+
+2013 408 20题
+
+参考链接：
+https://www.zhihu.com/question/20131784
+https://blog.csdn.net/Saltyyy/article/details/117691402
