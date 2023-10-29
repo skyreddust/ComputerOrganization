@@ -1,0 +1,13 @@
+·隐含寻址
+·立即寻址：mov ax,1234h
+·寄存器直接寻址：mov ax,bx
+·寄存器间接寻址：mov ax,[si]
+·直接寻址：mov ax,[1234h]
+·间接寻址
+·相对寻址：offset相对pc值
+·基址寻址：offset相对基址寄存器
+·变址寻址：offset相对变址寄存器
+
+参考链接：
+https://blog.csdn.net/qq_44997784/article/details/106519374
+https://www.cnblogs.com/lilongjiang/category/304646.html
