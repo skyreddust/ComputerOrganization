@@ -28,3 +28,6 @@
 https://www.cnblogs.com/morningTX/p/10471123.html
 https://blog.csdn.net/qq_43068326/article/details/105314046
 https://blog.csdn.net/qq_34902437/article/details/102685717
+
+为了改善磁盘的效率，操作系统将多个相邻的扇区组合成一个簇，对文件存储空间的分配以簇为单位，因此一个文件所占用的磁盘空间只能是簇的整数倍。
+【例题】408 2017 26
