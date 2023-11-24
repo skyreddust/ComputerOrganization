@@ -11,3 +11,9 @@ cpu初始化传输动作，dmac(dma控制器)实行和完成传输动作本身�
 参考链接：
 https://blog.csdn.net/qq_25814297/article/details/109256809
 https://blog.csdn.net/Airbnb/article/details/41575923
+
+DMA传送过程：预处理 - 数据传送 - 后处理
+·预处理：由CPU初始化DMA控制器中的有关寄存器、设置传送方向、测试并启动设备等
+·数据传送：完全由DMA控制，DMA控制器接管系统总线
+·后处理：DMA控制器向CPU发送中断请求，CPU执行中断服务程序做DMA结束处理
+【例题】408 2017 32
