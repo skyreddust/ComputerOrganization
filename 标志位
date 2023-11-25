@@ -1,3 +1,4 @@
+标志寄存器又称程序状态字(PSW，program status word)
 CF(carry flag)：进位/借位
 ZF(zero flag)：零标志位
 SF(symbol flag)：符号标志位
@@ -8,6 +9,14 @@ OF(overflow flag)：溢出标志位
 有符号数计算看SF、OF、ZF
 
 参考链接：
-https://blog.csdn.net/weixin_41890599/article/details/99866410
-https://blog.csdn.net/weixin_45609535/article/details/124499616
-溢出判断：https://blog.csdn.net/CHAOS_ORDER/article/details/105388098
+汇编语言中的标志位：https://blog.csdn.net/weixin_41890599/article/details/99866410
+CF、SF、OF、ZF标志位：https://blog.csdn.net/weixin_45609535/article/details/124499616
+溢出判断的三种方式：https://blog.csdn.net/CHAOS_ORDER/article/details/105388098
+
+OF溢出标志，用于判断带符号数加减运算是否溢出。OF=1溢出；OF=0未溢出
+CF进位/借位标志，用于判断无符号数加减运算是否溢出。CF=1进位/借位；CF=0未进位/借位
+OF = 最高位的进位(符号位) ⊕ 次高位的进位(数值位最高位)【OF = Cn ⊕ Cn-1 = Cout ⊕ Cn-1】
+CF = 最高位的进位 ⊕ 控制信号op(加0减1)【CF = Cout ⊕ Cin = Cn ⊕ C0】
+
+[a-b]补 = [a]补 + [-b]补
+[-b]补：连同符号位在内，每位取反再加一
