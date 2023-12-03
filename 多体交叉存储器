@@ -10,3 +10,6 @@
 参考链接：
 https://www.cnblogs.com/fate-/p/13171330.html
 https://blog.csdn.net/nuo_Shar/article/details/79048019
+
+DRAM采用行列地址线复用技术，优先行列差值不大的，减小刷新开销，DRAM一般按行刷新，应选择行数值较少的。
+【例题】408 2018 17
