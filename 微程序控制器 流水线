@@ -26,6 +26,10 @@
 ·能结合动态调度技术提高指令执行并行性
 【例题】408 2017 17
 
+流水线：取指IF、译码/读寄存器ID、执行/计算有效地址EX、访问存储器M、结果写会寄存器WB
+流水段最大部件时间+流水段寄存器延时
+【例题】408 2018 20
+
 参考链接：
 https://blog.csdn.net/lgw999jyx/article/details/106446836
 https://blog.csdn.net/baidu_39514357/article/details/126816350
