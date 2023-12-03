@@ -9,8 +9,9 @@
 ·变址寻址：offset相对变址寄存器
 
 【例题】408 2017 16：三地址指令将其中一个地址作为二地址指令的操作码范围
+【例题】408 2018 18：变址寄存器寻址，注意十六进制和十进制转换(易错)
 
 参考链接：
 https://blog.csdn.net/qq_44997784/article/details/106519374
 https://www.cnblogs.com/lilongjiang/category/304646.html
-408 2016 17题
+【例题】408 2016 17
