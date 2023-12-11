@@ -33,3 +33,9 @@
 参考链接：
 https://blog.csdn.net/lgw999jyx/article/details/106446836
 https://blog.csdn.net/baidu_39514357/article/details/126816350
+
+主存 - 控存(CPU内部，ROM)
+MAR：存放主存读写地址
+CMAR：控存读写微指令地址
+IR：存放主存读取的指令
+CMDR/UIR：存放控存中取出的微指令
