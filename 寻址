@@ -5,6 +5,9 @@
 ·直接寻址：mov ax,[1234h]
 ·间接寻址：相对于直接寻址而言，指令的地址字段给出的形式地址不是操作数的真正地址，而是操作数地址的地址
 ·相对寻址：offset相对pc值
+  注意进入指令时pc值会根据当前指令长度先修改，再加上偏移值
+    https://blog.csdn.net/u011240016/article/details/52723779
+    https://bingw.blog.csdn.net/article/details/52727962
 ·基址寻址：offset相对基址寄存器
 ·变址寻址：offset相对变址寄存器
 
